@@ -1,0 +1,73 @@
+body {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 15vh 8vh 50vh 8vh;
+    grid-template-areas: "logo nav nav nav nav cart"
+    "options options options options options options"
+    "main main main main . aside"
+    "footer footer footer footer footer footer";
+    gap: 20px;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.logo {
+    background-color: rgba(126, 231, 255, 0.838);
+    grid-area: logo;
+
+}
+
+nav {
+    background-color: rgba(255, 60, 60, 0.559);
+    grid-area: nav;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart {
+    background-color: rgba(81, 255, 81, 0.486);
+    grid-area: cart;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    background-color: rgba(133, 67, 195, 0.463);
+    grid-area: options;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: rgba(168, 207, 221, 0.767);
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: rgba(255, 255, 26, 0.585);
+    grid-area: aside;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(128, 0, 128, 0.387);
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+}
+
