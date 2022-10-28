@@ -16,7 +16,78 @@ div.logo {
     margin-right: auto;
 }
 
-div.name {
+
+div.gridlayout {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+    
+    "sw1 sw1
+    
+    
+    
+    
+    ;
+}
+
+.sw1 {
+    grid-area: sw1;
+}
+
+.sw2 {
+    grid-area: sw2;
+}
+
+.sw3 {
+    grid-area: sw3;
+}
+
+.sw4 {
+    grid-area: sw4;
+}
+
+.sw5 {
+    grid-area: sw5;
+}
+
+.sw6 {
+    grid-area: sw6;
+}
+
+.sw7 {
+    grid-area: sw7;
+}
+
+.sw8 {
+    grid-area: sw8;
+}
+
+.sw9 {
+    grid-area: sw9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div.name {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -48,4 +119,4 @@ h1 {
     background-color: rgba(0, 0, 0, 0.487);
     padding: 0;
     margin: 0;
-}
+} */
