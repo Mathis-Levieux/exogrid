@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+body {
+    background-image: url(../img/bg.jpg);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+div.logo {
+    width: 100%;
+}
+
+.logo div,
+.logoimg {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.grid {
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "sw1 sw2 sw3"
+        "sw4 sw5 sw6"
+        "sw7 sw8 sw9";
+    gap: 20px;
+}
+
+img {
+    max-height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+.grid div {
+    border: 2px yellow solid;
+    height: fit-content;
+    position: relative;
+}
+
+.sw4,
+.sw5,
+.sw6 {
+    margin-top: -50px;
+}
+
+.sw9 {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
+
+div.name {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    color: yellow;
+}
+
+div.name:hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    color: white;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.129);
+    padding: 0;
+    margin: 0;
+}
