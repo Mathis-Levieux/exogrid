@@ -142,7 +142,7 @@ audio {
 
   .sw1 {
     grid-area: sw1;
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row: 1 / 3;
   }
 
@@ -154,7 +154,7 @@ audio {
 
   .sw3 {
     grid-area: sw3;
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row: 3 / 6;
   }
 
@@ -166,7 +166,7 @@ audio {
 
   .sw5 {
     grid-area: sw5;
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row: 6 / 9;
   }
 
@@ -178,7 +178,7 @@ audio {
 
   .sw7 {
     grid-area: sw7;
-    grid-column: 1 / 7;
+    grid-column: 1 / 6;
     grid-row: 9 / 12;
   }
 
